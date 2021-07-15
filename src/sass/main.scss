@@ -1,10 +1,19 @@
-html,
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0;
 
     canvas#temp,
     video#input {
         display: none;
+    }
+
+    canvas#output {
+        height: 100vh;
+        width: auto;
     }
 }
